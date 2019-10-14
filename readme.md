@@ -43,6 +43,7 @@ No. But it could potentially outperform it. Rendering performance is fully up to
 Copy the following into a project to get going. [Here's the same](https://codesandbox.io/s/rrppl0y8l4) running in a code sandbox.
 
 ```jsx
+import React, { useRef } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
 
 function Thing() {
